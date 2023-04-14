@@ -1,0 +1,18 @@
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+input:invalid ~ span::after {
+  content: "campo obrigatório!";
+  color: red;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 1px solid green;
+}
