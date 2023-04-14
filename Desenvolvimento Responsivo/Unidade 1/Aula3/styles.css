@@ -1,0 +1,14 @@
+a {
+  color: black;
+  background-color: white;
+}
+
+a:hover,
+a:focus {
+  color: white;
+  background-color: black;
+}
+
+p::first-letter {
+  font-size: 1.5rem;
+}
